@@ -5,6 +5,7 @@
 - Extract the 7z file: `7z e FILE_NAME`
 - Insert SD card, and check the location with `dmesg` (eg. /dev/sdb1)
 - Write file to SD card: `sudo dd bs=4M if=IMG_FILE_NAME of=SD_CARD_LOCATION`
+- Run `sync` after, to flush cache and ensure write is complete
 - To find the IP Address of the Orange Pi later, it is easiest to check the new network connections
 - Install nmap: `sudo apt-get install nmap`
 - Check for network devices + save to file: `nmap -sn 192.168.0.0/24 > initial_scan` (replace IP address with your network range and subnet)
