@@ -15,3 +15,14 @@
 - `ssh root@192.168.0.10` if it asks you for a password, enter the default of `1234`
 - Using guide, set new password for root and set up a new user/password
 - Disconnect (`ctrl + d`) and log in using the new user: `ssh user@192.168.0.10`
+
+To do:
+- Investigate why orange pi zero USB ports aren't working
+
+- In the meantime, purchased a Raspberry Pi 3 B+
+- Install Octoprint
+- Setup a backup HDD (4TB WD red?)
+- Backup from laptops + phones
+- Setup PiHole
+- Use it for a IOT controller? home-assistant.io
+- Worth getting a touchscreen to control it?
